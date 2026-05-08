@@ -4,20 +4,21 @@ import Portfolio from "./Portfolio";
 import Skills from "./Skill";
 
 function Home() {
+  const heroText = `
+    Frontend Developer passionate about building modern, responsive,
+    and user-focused web applications using React JS, JavaScript,
+    HTML, and CSS. I create clean and interactive digital experiences
+    with performance, accessibility, and modern UI design in mind.
+  `
+    .replace(/\s+/g, " ")
+    .trim();
+
   return (
     <section className="page">
       <h1 className="hero-title">Hi, I'm Zia Ur Rehman</h1>
-
-      <p className="hero-text">
-        Frontend Developer passionate about building modern, responsive, and
-        user-focused web applications using React JS, JavaScript, HTML, and CSS.
-        I create clean and interactive digital experiences with performance,
-        accessibility, and modern UI design in mind.
-      </p>
-
+      <p className="hero-text">{heroText}</p>
       <About />
       <Skills />
-
       <Portfolio />
       <Contact />
     </section>
