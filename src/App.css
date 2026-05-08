@@ -654,7 +654,7 @@ img{
 }
 @media (max-width: 360px) {
   .app-layout {
-    padding: 8px; 
+    padding: 5px; 
     gap: 15px; 
   }
 
@@ -668,7 +668,7 @@ img{
   }
 
   .page {
-    padding: 12px; 
+    padding: 10px; 
   }
 
   .hero-title, .section-title {
@@ -677,7 +677,7 @@ img{
   }
 
   .nav-links {
-    gap: 10px;
+    gap: 8px;
   }
 
   .nav-links a {
