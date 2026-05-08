@@ -605,6 +605,9 @@ img{
   .skills-grid{
     grid-template-columns:1fr 1fr;
   }
+  .sidebar{
+    position:static;
+  }
 }
 
 @media(max-width:500px){
@@ -616,10 +619,16 @@ img{
   }
 
   .skill-card{
-    padding:20px;
+    padding:15px;
+    min-height:120px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
   }
+
   .skill-card h3{
-   font-size: 0.7rem;
+    font-size:0.75rem;
+    word-break:break-word;
   }
   .profile img{
     width:90px;
@@ -636,5 +645,8 @@ img{
 
   .nav-links a{
     font-size:14px;
+  }
+  .sidebar{
+    position:static;
   }
 }
