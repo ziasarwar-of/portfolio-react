@@ -310,7 +310,7 @@ img{
 .app-layout{
   max-width:1400px;
   margin:auto;
-  padding:20px;
+  padding:5px;
   display:grid;
   grid-template-columns:320px 1fr;
   gap:30px;
