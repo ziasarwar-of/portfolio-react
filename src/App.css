@@ -609,6 +609,7 @@ img{
   .sidebar{
     position:static;
   }
+  
 }
 
 @media(max-width:500px){
@@ -651,6 +652,9 @@ img{
   .sidebar{
     position:static;
   }
+  .hero-text, .about p, .about .content {
+    text-align: left;
+  }
 }
 @media (max-width: 360px) {
   .app-layout {
@@ -687,5 +691,8 @@ img{
   .skills-grid {
     grid-template-columns: 1fr; 
     gap: 8px;
+  }
+  .hero-text, .about p, .about .content {
+    text-align: left;
   }
 }
