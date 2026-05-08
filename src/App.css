@@ -677,11 +677,11 @@ img{
   }
 
   .nav-links {
-    gap: 8px;
+    gap: 10px;
   }
 
   .nav-links a {
-    font-size: 12px; 
+    font-size: 14px; 
   }
 
   .skills-grid {
